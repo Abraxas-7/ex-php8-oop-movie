@@ -11,3 +11,7 @@ $star_wars->setRating(5);
 $fast_and_furious->setRating(8);
 
 var_dump($star_wars, $fast_and_furious);
+
+echo $star_wars->getFormattedRating() . "<br>";
+$star_wars->setRating(8);
+echo $star_wars->getFormattedRating() . "<br>";
