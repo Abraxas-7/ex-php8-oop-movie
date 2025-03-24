@@ -12,11 +12,11 @@ class movie
     public $genres;
 
 
-    function __construct($_title, $_director, $_year, $_genres = [])
+    function __construct($_title, $_director, $_year, Genres $_genres)
     {
         $this->title = $_title;
         $this->director = $_director;
         $this->year = $_year;
-        $this->genres = new genres($_genres);
+        $this->genres = $_genres;
     }
 }

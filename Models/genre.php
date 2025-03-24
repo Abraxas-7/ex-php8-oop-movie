@@ -1,12 +1,15 @@
 <?php
-class genres {
+class Genres
+{
     public $genres = [];
 
-    function __construct($_genres) {
+    function __construct($_genres)
+    {
         $this->genres = $_genres;
     }
 
-    function add_genre($_genre) {
+    function add_genre($_genre)
+    {
         $this->genres[] = $_genre;
     }
 }
